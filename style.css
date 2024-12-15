@@ -1,0 +1,25 @@
+html {
+  font-size: 16px;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  background: linear-gradient(to bottom right, blue, pink);
+  border-radius: 1.5rem;
+}
+
+body {
+  color: rgb(53, 46, 46);
+  font-size: 2rem;
+}
+
+.container { display: flex; /* flexbox を有効にする */ 
+  flex-wrap: wrap; /* 要素の折り返すかどうか */ 
+  flex-direction: row; /* 要素の並び方向 */ 
+  gap: 1rem; /* 要素間の間隔 */ 
+  justify-content: space-between; /* 横方向の配置 */ 
+  align-items: center; /* 縦方向の配置 */ 
+}
